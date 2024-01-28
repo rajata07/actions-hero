@@ -1,9 +1,7 @@
 name: New Issue Workflow
-
 on:
 	issues:
 		types: [opened]
-
 jobs:
 	comment-with-action:
   	runs-on: ubuntu-latest
