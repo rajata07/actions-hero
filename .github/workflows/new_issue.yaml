@@ -17,4 +17,4 @@ jobs:
             Hello @${{ github.event.issue.user.login }}! Thanks for opening this issue.
             I will be working on this issue and will update you once I am done.
             Meanwhile, you can check out my other projects at
-
+          reactions: '+1,confused,eyes,heart,hooray,laugh,rocket'
