@@ -1,12 +1,13 @@
 name: New Issue Workflow
+
 on:
-    issues:
-        types: [opened]
+	issues:
+		types: [opened]
 
 jobs:
-    comment-with-action:
-        runs-on: ubuntu-latest
-        steps:
-            - name: "dump github context"
-              run: echo 'Hello World'
-              shell: bash
+	comment-with-action:
+  	runs-on: ubuntu-latest
+    	steps:
+      	- name: "dump github context"
+        	run: echo 'Hello World'
+          shell: bash
